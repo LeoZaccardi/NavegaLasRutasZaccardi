@@ -1,6 +1,7 @@
 import React from 'react';
 import Item from './Item';
 
+
 const ItemList = ({ products }) => {
     if (products.length === 0) {
         return <p>No hay productos en esta categoría.</p>;
