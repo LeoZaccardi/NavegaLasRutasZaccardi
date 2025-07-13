@@ -1,8 +1,10 @@
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import { Routes, Route, Link } from 'react-router-dom';
-import ItemListContainer from './containers/ItemListContainer';
-import ItemDetailContainer from './containers/ItemDetailContainer';
+import ItemListContainer from './components/containers/ItemListContainer';
+import ItemDetailContainer from './components/containers/ItemDetailContainer';
 import NotFound from './components/NotFound';
+import Cart from './components/Cart/Cart';
+import CheckoutForm from './components/Checkout/CheckoutForm';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/categoria/:categoryId" element={<ItemListContainer />} />
-        <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+        <Route path="/item/:id" element={<ItemDetailContainer />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<CheckoutForm />} />
         <Route path="*"element={<NotFound/>}/>
       </Routes>
     </>

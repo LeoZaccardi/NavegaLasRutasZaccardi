@@ -1,12 +1,26 @@
-# React + Vite
+# 🛍️ SoundSec - E-commerce de Audio Hi-Fi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoundSec es una tienda online especializada en productos de audio de alta fidelidad: auriculares, parlantes, DACs, amplificadores y más. Este proyecto fue desarrollado como parte de un ecosistema de seguridad cibernetica enfocada para artistas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades principales
 
-## Expanding the ESLint configuration
+- 📦 Listado dinámico de productos
+- 🔍 Filtrado por categorías
+- 📄 Vista detallada de cada producto
+- ➕ Agregar al carrito con control de stock
+- 🛒 Vista completa del carrito con totales
+- ✅ Checkout con formulario de compra
+- 🧾 Generación de orden en Firebase con ID único
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tecnologías utilizadas
+
+- React JS (Vite)
+- React Router DOM
+- Firebase (Firestore)
+- JavaScript moderno (ES6+)
+- CSS modular y personalizado
+
